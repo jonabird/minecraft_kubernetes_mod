@@ -1,0 +1,16 @@
+{
+  "group": "kubernetes_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubernetes_mod:config_map"
+    },
+    {
+      "item": "kubernetes_mod:container"
+    }
+  ],
+  "result": {
+    "item": "kubernetes_mod:deployment",
+    "count": 1
+  }
+}

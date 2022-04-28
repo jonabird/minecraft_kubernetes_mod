@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "kubernetes_mod:blocks/node",
+    "up": "kubernetes_mod:blocks/node",
+    "north": "kubernetes_mod:blocks/node_main",
+    "east": "kubernetes_mod:blocks/node",
+    "south": "kubernetes_mod:blocks/node",
+    "west": "kubernetes_mod:blocks/node",
+    "particle": "kubernetes_mod:blocks/node"
+  }
+}

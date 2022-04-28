@@ -1,0 +1,350 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Docker",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "docker"
+    },
+    {
+      "name": "KubernetesTab",
+      "type": "tab",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubernetes_tab"
+    },
+    {
+      "name": "ErrorParticle",
+      "type": "particle",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "error_particle"
+    },
+    {
+      "name": "BugThisEntityKillsAnotherOne",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bug_this_entity_kills_another_one",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bug",
+      "type": "livingentity",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bug"
+    },
+    {
+      "name": "KubernetesIcon",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubernetes_icon"
+    },
+    {
+      "name": "ContainerGUI",
+      "type": "gui",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_gui"
+    },
+    {
+      "name": "Container",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container"
+    },
+    {
+      "name": "ContainerRecipe",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "container_recipe"
+    },
+    {
+      "name": "KubernetesPainting",
+      "type": "painting",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "kubernetes_painting"
+    },
+    {
+      "name": "Trivy",
+      "type": "livingentity",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trivy"
+    },
+    {
+      "name": "BugTrivyBoss",
+      "type": "livingentity",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bug_trivy_boss"
+    },
+    {
+      "name": "TrivyEntityDies",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "trivy_entity_dies",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DockerRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "docker_recipe"
+    },
+    {
+      "name": "File",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "file"
+    },
+    {
+      "name": "CodeCommandExecuted",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "code_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Code",
+      "type": "command",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "code"
+    },
+    {
+      "name": "ConfigMap",
+      "type": "item",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "config_map"
+    },
+    {
+      "name": "ConfigMapRecipe",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "config_map_recipe"
+    },
+    {
+      "name": "Deployment",
+      "type": "item",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deployment"
+    },
+    {
+      "name": "DeploymentRecipe",
+      "type": "recipe",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deployment_recipe"
+    },
+    {
+      "name": "Volume",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volume"
+    },
+    {
+      "name": "VolumeRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "volume_recipe"
+    },
+    {
+      "name": "Pod",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pod"
+    },
+    {
+      "name": "PodRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pod_recipe"
+    },
+    {
+      "name": "Node",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "node"
+    },
+    {
+      "name": "NodeRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "node_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "errorsound",
+      "files": [
+        "computer_beep"
+      ],
+      "category": "hostile",
+      "subtitle": "ERROR"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.kubernetes_mod.docker": "Docker",
+      "block.kubernetes_mod.container": "Container",
+      "item.kubernetes_mod.volume": "Volume",
+      "entity.kubernetes_mod.bug": "Bug",
+      "item.kubernetes_mod.file": "File",
+      "item.kubernetes_mod.trivy_spawn_egg": "Trivy Spawn Egg",
+      "item.kubernetes_mod.bug_trivy_boss_spawn_egg": "Bugged Trivy Spawn Egg",
+      "item.kubernetes_mod.kubernetes_icon": "Kubelet",
+      "item.kubernetes_mod.pod": "Pod",
+      "item.kubernetes_mod.bug_spawn_egg": "Bug Spawn Egg",
+      "subtitles.errorsound": "ERROR",
+      "item.kubernetes_mod.deployment": "Deployment",
+      "itemGroup.tabkubernetes_tab": "Kubernetes",
+      "block.kubernetes_mod.node": "Node",
+      "entity.kubernetes_mod.trivy": "Trivy",
+      "item.kubernetes_mod.config_map": "Config Map",
+      "entity.kubernetes_mod.bug_trivy_boss": "Bugged Trivy"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "kubernetes_mod",
+    "modName": "Kubernetes Mod",
+    "version": "1.0.0",
+    "author": "jona, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.kubernetesmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100236710
+}

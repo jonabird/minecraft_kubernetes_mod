@@ -1,0 +1,19 @@
+{
+  "group": "kubernetes_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:fishes"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "kubernetes_mod:file"
+    }
+  ],
+  "result": {
+    "item": "kubernetes_mod:docker",
+    "count": 1
+  }
+}

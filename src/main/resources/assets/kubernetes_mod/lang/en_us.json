@@ -1,0 +1,19 @@
+{
+  "item.kubernetes_mod.docker": "Docker",
+  "block.kubernetes_mod.container": "Container",
+  "item.kubernetes_mod.volume": "Volume",
+  "entity.kubernetes_mod.bug": "Bug",
+  "item.kubernetes_mod.file": "File",
+  "item.kubernetes_mod.trivy_spawn_egg": "Trivy Spawn Egg",
+  "item.kubernetes_mod.bug_trivy_boss_spawn_egg": "Bugged Trivy Spawn Egg",
+  "item.kubernetes_mod.kubernetes_icon": "Kubelet",
+  "item.kubernetes_mod.pod": "Pod",
+  "item.kubernetes_mod.bug_spawn_egg": "Bug Spawn Egg",
+  "subtitles.errorsound": "ERROR",
+  "item.kubernetes_mod.deployment": "Deployment",
+  "itemGroup.tabkubernetes_tab": "Kubernetes",
+  "block.kubernetes_mod.node": "Node",
+  "entity.kubernetes_mod.trivy": "Trivy",
+  "item.kubernetes_mod.config_map": "Config Map",
+  "entity.kubernetes_mod.bug_trivy_boss": "Bugged Trivy"
+}

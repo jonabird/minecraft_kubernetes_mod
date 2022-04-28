@@ -1,0 +1,12 @@
+{
+  "errorsound": {
+    "category": "hostile",
+    "subtitle": "subtitles.errorsound",
+    "sounds": [
+      {
+        "name": "kubernetes_mod:computer_beep",
+        "stream": false
+      }
+    ]
+  }
+}

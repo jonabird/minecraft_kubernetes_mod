@@ -1,0 +1,28 @@
+{
+  "group": "kubernetes_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubernetes_mod:container"
+    },
+    {
+      "item": "kubernetes_mod:container"
+    },
+    {
+      "item": "kubernetes_mod:container"
+    },
+    {
+      "item": "kubernetes_mod:volume"
+    },
+    {
+      "item": "kubernetes_mod:volume"
+    },
+    {
+      "item": "kubernetes_mod:deployment"
+    }
+  ],
+  "result": {
+    "item": "kubernetes_mod:pod",
+    "count": 1
+  }
+}

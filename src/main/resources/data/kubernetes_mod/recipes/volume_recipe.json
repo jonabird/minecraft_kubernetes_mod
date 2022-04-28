@@ -1,0 +1,16 @@
+{
+  "group": "kubernetes_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "kubernetes_mod:file"
+    }
+  ],
+  "result": {
+    "item": "kubernetes_mod:volume",
+    "count": 1
+  }
+}

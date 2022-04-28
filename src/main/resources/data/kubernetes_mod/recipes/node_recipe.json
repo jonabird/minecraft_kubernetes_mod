@@ -1,0 +1,28 @@
+{
+  "group": "kubernetes_mod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "kubernetes_mod:pod"
+    },
+    {
+      "item": "kubernetes_mod:pod"
+    },
+    {
+      "item": "kubernetes_mod:file"
+    },
+    {
+      "item": "kubernetes_mod:docker"
+    },
+    {
+      "item": "kubernetes_mod:kubernetes_icon"
+    }
+  ],
+  "result": {
+    "item": "kubernetes_mod:node",
+    "count": 1
+  }
+}
